@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <LoginScreen /> should render the component correctly 1`] = `
+<div
+  className="card text-center ms-5 animate__animated animate__fadeIn text-white bg-dark"
+>
+  <div
+    className="card-body"
+  >
+    <form
+      className="container mt-3"
+      onSubmit={[Function]}
+    >
+      <div
+        className="input-group mb-3"
+      >
+        <input
+          autoComplete="off"
+          autoFocus={true}
+          className="form-control"
+          name="name"
+          onChange={[Function]}
+          placeholder="Your name"
+          required={true}
+          type="text"
+        />
+        <div
+          className="input-group-append"
+        >
+          <button
+            className="btn btn-primary"
+            type="submit"
+          >
+            Login!
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

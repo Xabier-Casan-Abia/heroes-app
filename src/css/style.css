@@ -1,0 +1,21 @@
+body {
+    background-image: url('/assets/heroes/heroes.jpg');
+}
+
+.card-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero {
+    max-width: 540px;
+    max-height: 540px;
+}
+
+.login {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

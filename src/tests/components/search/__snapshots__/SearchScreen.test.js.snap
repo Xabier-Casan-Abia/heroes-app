@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <SearchScreen /> should render the component correctly with default values 1`] = `
+<div>
+  <div
+    className="card text-center ms-3 animate__animated animate__fadeIn text-white bg-dark mb-3"
+  >
+    <div
+      className="card-body"
+    >
+      <hr />
+      <h4>
+         Find your heroes 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Hero name"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn mt-2 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    className="card-columns"
+  />
+</div>
+`;
+
+exports[`Tests in <SearchScreen /> should show a hero by giving a queryString 1`] = `
+<div>
+  <div
+    className="card text-center ms-3 animate__animated animate__fadeIn text-white bg-dark mb-3"
+  >
+    <div
+      className="card-body"
+    >
+      <hr />
+      <h4>
+         Find your heroes 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Hero name"
+          type="text"
+          value="Green Lantern"
+        />
+        <button
+          className="btn mt-2 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    className="card-columns"
+  >
+    <div
+      className="card ms-3 animate__animated animate__fadeIn"
+      style={
+        Object {
+          "maxHeight": 540,
+          "maxWidth": 540,
+        }
+      }
+    >
+      <div
+        className="row no-gutters"
+      >
+        <div
+          className="col-md-4"
+        >
+          <img
+            alt="Green Lantern"
+            className="card-img"
+            src="./assets/heroes/dc-green.jpg"
+          />
+        </div>
+        <div
+          className="col-md-8"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Green Lantern
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Alan Scott
+               
+            </p>
+            <p
+              className="card-text"
+            >
+              <small
+                className="text-muted"
+              >
+                 
+                All-American Comics #16
+                 
+              </small>
+            </p>
+            <a
+              href="/hero/dc-green"
+              onClick={[Function]}
+            >
+              More...
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tests in <SearchScreen /> should show an error message if it does not find a hero 1`] = `
+<div>
+  <div
+    className="card text-center ms-3 animate__animated animate__fadeIn text-white bg-dark mb-3"
+  >
+    <div
+      className="card-body"
+    >
+      <hr />
+      <h4>
+         Find your heroes 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Hero name"
+          type="text"
+          value="batman123"
+        />
+        <button
+          className="btn mt-2 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    className="card-columns"
+  >
+    <div
+      className="alert alert-danger"
+    >
+      There are no heroes with 
+      batman123
+    </div>
+  </div>
+</div>
+`;
